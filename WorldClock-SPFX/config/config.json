@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "world-clock-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/worldClock/WorldClockWebPart.js",
+          "manifest": "./src/webparts/worldClock/WorldClockWebPart.manifest.json"
+        }
+      ]
+    },
+    "world-clock-slider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/worldClockSlider/WorldClockSliderWebPart.js",
+          "manifest": "./src/webparts/worldClockSlider/WorldClockSliderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorldClockWebPartStrings": "lib/webparts/worldClock/loc/{locale}.js",
+    "WorldClockSliderWebPartStrings": "lib/webparts/worldClockSlider/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "AppSettings":"lib/webparts/appSettings.js"
+  }
+}

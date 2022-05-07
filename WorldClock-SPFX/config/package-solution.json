@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "world-clock-client-side-solution",
+    "id": "057e72bf-42b8-4883-b42c-a6c820ab4f01",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "WorldClock description"
+      },
+      "longDescription": {
+        "default": "WorldClock description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "world-clock Feature",
+        "description": "The feature that activates elements of the world-clock solution.",
+        "id": "bd721a86-7f94-489f-a10d-f8c065178e61",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/world-clock.sppkg"
+  }
+}
